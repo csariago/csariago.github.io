@@ -1,0 +1,100 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color:darkslategray;
+    text-decoration: None;
+    font-family: poppins;
+    font-size:3rem;
+    text-align: center;
+}
+
+h2 {
+    color:darkslategray;
+    text-decoration: None;
+    font-family: poppins;
+    font-size:2rem;
+    text-align: center;
+}
+
+h3, h4, h5, h6, spam{
+    color:darkslategray;
+    text-decoration: None;
+    font-family: poppins;
+    font-size:1rem;
+}
+
+td, p{
+    font-family: poppins;
+    font-size:small;
+}
+
+a{
+    font-family: poppins;
+
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+section#hero{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+.projects-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-detail{
+    border: 5px solid lightseagreen;
+    border-radius: 15px;
+    width: 300px;
+    margin: 20px;
+}
+
+.project-detail img{
+    width: 100%;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: beige;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: :none;
+}
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0%;
+    background-color: antiquewhite;
+}
+
+.contact{
+    align-content: center;
+}
+
+.rrss__icons{
+    display: grid;
+    place-content: center;
+    font-size:x-large;
+}
